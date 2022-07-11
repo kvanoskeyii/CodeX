@@ -42,6 +42,22 @@ margin-top: 50px;
     height: 65px;
     color: #b2071d;
 }
+.fa-spotify{
+    height: 65px;
+    color: #1DB954;
+}
+.fa-discord{
+    height: 65px;
+    color: #7289da;
+}
+.fa-tiktok{
+    height: 65px;
+    color: #ff0050;
+}
+.fa-twitch{
+    height: 65px;
+    color: #6441a5;
+}
 .icon-margin{
     margin-right: 20px;
 }
@@ -50,13 +66,36 @@ margin-top: 50px;
     transition: .15s;
 }
 .more-content{
-    font-family: 'Montserrat', sans-serif; ;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: white;
     text-align: center;
     font-size: 22px;
 }
 
+header {
+    background-color: #f64a4a;
+    height: 40px;
+    position: fixed;
+    display: grid;
+    top: 0;
+    left: 5px;
+    right: 5px;
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+}
+.shop-link{
+    text-decoration:none ;
+    color: white;
+
+}
+
+.shop-link:hover{
+    text-decoration: underline;
+}
 footer{
     color: white;
     font-family: 'Montserrat', sans-serif ;
@@ -86,21 +125,28 @@ footer{
       
         }
         .fa-twitter{
-            height: 120px;
-            color: #00acee;  
+            height: 120px; 
         }
         .fa-facebook{
             height: 120px;
-            color: #3b5998;
         }
         .fa-instagram{
             height: 120px;
-            color:#125688;
         }
         .fa-youtube{
             height: 120px;
-            color: #b2071d;
         }
-
+        .fa-spotify{
+            height: 120px;
+        }
+        .fa-discord{
+            height: 120px;
+        }
+        .fa-tiktok{
+            height: 120px;
+        }
+        .fa-twitch{
+            height: 120px;
+        }
         
 }
