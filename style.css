@@ -81,6 +81,26 @@ footer{
 
 @media(max-width: 786px) {
 
-    
+    .logo{
+        height: 600px;
+      
+        }
+        .fa-twitter{
+            height: 120px;
+            color: #00acee;  
+        }
+        .fa-facebook{
+            height: 120px;
+            color: #3b5998;
+        }
+        .fa-instagram{
+            height: 120px;
+            color:#125688;
+        }
+        .fa-youtube{
+            height: 120px;
+            color: #b2071d;
+        }
 
+        
 }
