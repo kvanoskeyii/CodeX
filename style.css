@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+html{
+    margin: 0;
+    background-color: black;
+}
+.gradient{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FF0000, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FF0000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:700px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+height: 300px;
+margin-top: 50px;
+}
+.social-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.fa-twitter{
+    height: 65px;
+    color: #00acee;  
+}
+.fa-facebook{
+    height: 65px;
+    color: #3b5998;
+}
+.fa-instagram{
+    height: 65px;
+    color:#125688;
+}
+.fa-youtube{
+    height: 65px;
+    color: #b2071d;
+}
+.icon-margin{
+    margin-right: 20px;
+}
+.all-icons:hover{
+    opacity: .3;
+    transition: .15s;
+}
+.more-content{
+    font-family: 'Montserrat', sans-serif; ;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+footer{
+    color: white;
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Cell Phone Responsive*/
+
+@media(max-width: 786px) {
+
+    
+
+}
