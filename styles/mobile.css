@@ -1,0 +1,141 @@
+@media only screen and (max-width: 600px) {
+    
+    .header-container{
+    position: relative;
+
+}
+    .hero-section{
+        display: flex;
+        margin-top: 150px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .left-side{
+    position: relative;
+    }
+    .mobile-img{
+        width: 100%;
+    }
+    .shop-now{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: white;
+    }
+    
+    .recent{
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    }
+    .shop-button{
+        padding: 12px;
+        font-family: 'Montserrat', sans-serif ;
+        color: black;
+        background-color: white;
+        box-shadow: 5px 5px black;
+        cursor: pointer;
+    }
+    .shop-button:hover{
+        background-color: yellow;
+        transition: 0.3s;
+    }
+    .right-side{
+    position: relative;
+    }
+
+    .fa-twitter{
+        height: 45px;
+        color: #00acee;  
+    }
+    .fa-facebook{
+        height: 45px;
+        color: #3b5998;
+    }
+    .fa-instagram{
+        height: 45px;
+        color:#125688;
+    }
+    .fa-youtube{
+        height: 45px;
+        color: #b2071d;
+    }
+    .fa-spotify{
+        height: 45px;
+        color: #1DB954;
+    }
+    .fa-discord{
+        height: 45px;
+        color: #7289da;
+    }
+    .fa-tiktok{
+        height: 45px;
+        color: #ff0050;
+    }
+    .fa-twitch{
+        height: 45px;
+        color: #6441a5;
+    }
+    .icon-margin{
+        margin-right: 20px;
+    }
+    .social-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .embed-youtube {
+        width: 100%;
+
+  }
+  .news{
+    margin-top: 50px;
+    font-size: 1.5em;
+  }
+  .follow-section{
+    margin-top: 80px;
+}
+
+
+.team-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+    justify-content: center;
+}
+.user1{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    box-shadow: 10px 10px 10px 5px black;
+    align-items: center;
+}
+.mini-bio{
+    display: flex;
+    height: 40px;
+
+
+}
+.profile-pic {
+    width: 90px;
+}
+
+.name{
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+
+}
+}

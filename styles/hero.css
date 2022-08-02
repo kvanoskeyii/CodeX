@@ -1,0 +1,39 @@
+.hero-section{
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.left-side{
+position: relative;
+}
+.shop-now{
+position: absolute;
+bottom: 0;
+right: 10px;
+color: white;
+}
+
+.recent{
+position: absolute;
+bottom: 15px;
+right: 10px;
+}
+.shop-button{
+    padding: 12px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    color: black;
+    background-color: white;
+    box-shadow: 5px 5px black;
+    cursor: pointer;
+}
+.shop-button:hover{
+    background-color: yellow;
+    transition: 0.3s;
+}
+.right-side{
+position: relative;
+}

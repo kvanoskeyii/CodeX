@@ -1,0 +1,31 @@
+.header-container{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+
+}
+.logo-section{
+    margin-top: 5px;
+}
+.logo{
+    height: 100px;
+    
+}
+footer{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 5px;
+    background-color: black;
+}
